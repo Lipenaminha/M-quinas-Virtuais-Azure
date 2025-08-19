@@ -17,7 +17,7 @@ Esse início rápido mostra como implantar uma **VM Windows Server 2022 Datacent
    - Imagem: **Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2**  
    - Região: escolha uma próxima de você  
    - Tamanho: mantenha o padrão  
-   - ![Detalhes da instância](/images/azure-vm-basics.png)  
+   - ![Detalhes da instância](instance-details.png)  
 
 > ℹ️ Alguns usuários verão a opção de criar VMs em zonas de disponibilidade.  
 
