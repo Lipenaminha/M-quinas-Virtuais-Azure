@@ -16,43 +16,51 @@ Esse início rápido mostra como implantar uma **VM Windows Server 2022 Datacent
    - Nome: `myVM`  
    - Imagem: **Windows Server 2022 Datacenter: Azure Edition - x64 Gen 2**  
    - Região: escolha uma próxima de você  
-   - Tamanho: mantenha o padrão  
-   - ![Detalhes da instância](instance-details.png)  
+   - Tamanho: mantenha o padrão
+     
+   ![Detalhes da instância](instance-details.png)  
 
 > ℹ️ Alguns usuários verão a opção de criar VMs em zonas de disponibilidade.
 > https://learn.microsoft.com/pt-br/azure/virtual-machines/create-portal-availability-zone
 
 5. Em **Conta de administrador**:
    - Usuário: `azureuser`  
-   - Senha: mínimo 12 caracteres + complexidade  
+   - Senha: mínimo 12 caracteres + complexidade
+   - 
    - ![Conta de administrador](administrator-account.png)  
 
 6. Em **Regras de porta de entrada**:
    - Selecione **Permitir portas selecionadas**  
-   - Ative **RDP (3389)** e **HTTP (80)**  
+   - Ative **RDP (3389)** e **HTTP (80)**
+   - 
    - ![Regras de porta](inbound-port-rules.png)  
 
-7. Clique em **Examinar + criar** → depois em **Criar**.  
+7. Clique em **Examinar + criar** → depois em **Criar**.
+8. 
    - ![Review + Create](review-create (1).png)
   
 
-8. Após a validação, clique em **Criar**.
+9. Após a validação, clique em **Criar**.
+10. 
  ![Create virtual machine](validation (1).png)
 
 9.Após a conclusão da implantação, selecione Ir para o recurso.
+
  ![Next steps](next-steps (1).png)
 
 ---
 
 ## 🔗 Conectar-se à máquina virtual
 1. No portal → abra sua VM.
-   ![Conectar-se á máquina virtual ](portal-quick-start-9 (1).png)
 3. Clique em **Conectar** → **RDP**.  
 4. Baixe o arquivo `.rdp`.  
 5. Abra-o e clique em **Conectar**.  
 6. Na tela de login:  
    - Usuário: `localhost\\azureuser`  
-   - Senha: definida na criação da VM  
+   - Senha: definida na criação da VM
+
+![Conectar-se á máquina virtual ](portal-quick-start-9 (1).png) 
+
 7. Ignore o aviso de certificado clicando em **Sim**.  
  
 ---
