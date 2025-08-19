@@ -56,8 +56,9 @@ Esse início rápido mostra como implantar uma **VM Windows Server 2022 Datacent
 ![Conectar-se á máquina virtual ](portal-quick-start-9-(1).png) 
 
 7. Ignore o aviso de certificado clicando em **Sim**.  
- 
----
+
+(⚠️abaixo é a imagem que exibi a página de boas-vindas)
+ ![Página padrão do IIS](default-iis-website.png)
 
 ## 🌐 Instalar servidor Web (IIS)
 No **PowerShell** da VM, execute:  
@@ -65,10 +66,10 @@ No **PowerShell** da VM, execute:
 ```powershell
 Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
+
+
 ## 🌐 Exibir a página de boas-vindas do IIS
 1. No portal, selecione a VM.  
 2. Na visão geral da VM, passe o mouse sobre o **endereço IP** e clique em **Copiar para área de transferência**.  
 3. Cole o IP em uma aba do navegador.  
 4. A página de boas-vindas padrão do IIS será aberta e deve ter esta aparência:
-
-![Página padrão do IIS](default-iis-website.png)
