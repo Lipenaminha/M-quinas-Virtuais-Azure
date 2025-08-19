@@ -33,14 +33,14 @@ Esse início rápido mostra como implantar uma **VM Windows Server 2022 Datacent
    - ![Regras de porta](inbound-port-rules.png)  
 
 7. Clique em **Examinar + criar** → depois em **Criar**.
-   - ![Review + Create](review-create(1).png)
+   - ![Review + Create](review-create-(1).png)
   
 
 9. Após a validação, clique em **Criar**.
- ![Create virtual machine](validation(1).png)
+ ![Create virtual machine](validation-(1).png)
 
 9.Após a conclusão da implantação, selecione Ir para o recurso.
- ![Next steps](next-steps(1).png)
+ ![Next steps](next-steps-(1).png)
 
 ---
 
@@ -53,7 +53,7 @@ Esse início rápido mostra como implantar uma **VM Windows Server 2022 Datacent
    - Usuário: `localhost\\azureuser`  
    - Senha: definida na criação da VM
 
-![Conectar-se á máquina virtual ](portal-quick-start-9(1).png) 
+![Conectar-se á máquina virtual ](portal-quick-start-9-(1).png) 
 
 7. Ignore o aviso de certificado clicando em **Sim**.  
  
