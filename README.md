@@ -33,7 +33,7 @@ Esse início rápido mostra como implantar uma **VM Windows Server 2022 Datacent
    - ![Regras de porta](inbound-port-rules.png)  
 
 7. Clique em **Examinar + criar** → depois em **Criar**.
-    ![Review + Create](review-create (1).png)
+    ![Review + Create](review-create-(1).png)
   
 
 9. Após a validação, clique em **Criar**.
